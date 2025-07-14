@@ -19,3 +19,7 @@ Este validador atua de acordo com as regras regidas por meio dos atributos (`dat
 A interface é totalmente responsiva, e o formulário pode ser facilmente expandido para incluir outras validações, conforme necessário.
 
 As regras são separadas por meio de (` | `) no atributo, como (data-rules="`required|email`").
+
+##Principais desafios
+
+O principal desafio foi em como realizar a validação literal dos dados inseridos no campo, após um periodo de estudo encontrei uma solução segura de se fazer essa validação por meio do front end, que seria usar Expressões Regulares (Regex).
